@@ -17,25 +17,28 @@
         <a href="/">Look at my Blogs</a>
       </h1>
       <nav>
-     
-     <a href="/profile">profile</a> |
+        <!-- Conditionally render login or logout links -->
+        {{#if logged_in}}
+        <a href="/profile">profile</a> |
         <button class="no-button" id="logout">logout</button>
-      
+        {{else}}
         <a href="/login">login</a>
-    
+        {{/if}}
       </nav>
     </header>
     <main class="container container-fluid mt-5">
-         </main>
+      <!-- Render the sub layout -->
+      {{{ body }}}
+    </main>
     <footer>
       
     </footer>
   </div>
-   </main>
-    <footer>
-      
-    </footer>
-  </div>
-  </body>
+
+  <!-- Render script for logged in users only -->
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
 
 </html>
