@@ -1,7 +1,7 @@
 :root {
-    --primary: #ccdad1;
+    --primary: white;
     --secondary: #dce9d5;
-    --tertiary: #788585;
+    --tertiary:white;
     /* --quatrinary: #6c6b67; */
     --light: #a1a0a1;
     --dark: #201110;
@@ -19,9 +19,10 @@
     /* flex-direction: column; */
     /* min-height: 100vh; */
     /* justify-content: flex-start; */
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
+    background-image: url(https://images.squarespace-cdn.com/content/v1/58c43562a5790aa56a886623/1563391322195-X9RAKPKJXBNB74FSUAA7/Archisoup-monochrome-architecture-photography.jpg);
     padding: 0;
-    color: var (--dark);
+    color: white;
     line-height: 1.5;
     font-size: 24px;
   }
