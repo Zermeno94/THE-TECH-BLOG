@@ -36,7 +36,7 @@ outer.get('/blog/:id', async (req, res) => {
       const blog = blogData.get({ plain: true });
   
       res.render('blog', {
-        ...blog,
+        
         logged_in: req.session.logged_in
       });
     } catch (err) {
