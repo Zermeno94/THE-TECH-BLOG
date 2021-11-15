@@ -32,7 +32,7 @@ This application allows developers to publish their blog posts and comment on ot
 
 * [Link to Demo]()
 
-![tech blog login page](https://user-images.githubusercontent.com/87839888/141705887-89c284b0-5414-4ffc-8aa9-1ce054ec8db6.png)
+![Tech Blog-Login](https://user-images.githubusercontent.com/87839888/141707143-fc92a0dd-a614-4f9b-b7eb-cd26b5d40887.png)
 
 ### GitHub & Heroku Link
 
@@ -71,4 +71,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 
