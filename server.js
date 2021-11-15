@@ -42,3 +42,7 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
+
+//TODO
+// Need to fix the errs in getting data from database//
+// Work on database for usersData//
