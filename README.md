@@ -1,4 +1,4 @@
-📸   # HW 14: THE-TECH-BLOG  📸
+ # HW 14: THE-TECH-BLOG 📸
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-ff69b4.svg)
 
