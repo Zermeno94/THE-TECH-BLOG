@@ -1,3 +1,5 @@
+// pulled starter code from mini project
+
 const router = require('express').Router();
 
 const apiRoutes = require('./api');
