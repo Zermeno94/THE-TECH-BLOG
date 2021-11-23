@@ -45,5 +45,5 @@ document
   .addEventListener('submit', newFormHandler);
 
 document
-  // .querySelector('.blog-list')
+  .querySelector('.blog-list')
   .addEventListener('click', delButtonHandler);
