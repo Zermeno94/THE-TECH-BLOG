@@ -7,9 +7,7 @@ const withAuth = require('../../utils/auth');
 router.post('/', async (req, res) => {
   try {
     const newBlog = await Blog.create({
-      title: req.body.title,
-      post_title: req.body.post_title,
-      contents:req.body.contents,
+      ...req.body,
       user_id: req.session.user_id,
     });
 
