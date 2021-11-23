@@ -8,7 +8,9 @@ const newFormHandler = async (event) => {
   const contents = document.querySelector('#blog-cont').value.trim();
 
   if (name && contents) {
+    console.log('Hello');
     const response = await fetch('/api/blogs', {
+
       method: 'POST',
       body: JSON.stringify({post_title, contents }),
       headers: {
