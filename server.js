@@ -1,4 +1,4 @@
-//used starer code from mini project
+//used starer code from mini profile
 
 const path = require('path');
 const express = require('express');

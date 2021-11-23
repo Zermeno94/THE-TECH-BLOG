@@ -1,4 +1,4 @@
-// used starter code from mini project and past assignments from this unit
+// used starter code from mini profile and past assignments from this unit
 
 const loginFormHandler = async (event) => {
   event.preventDefault();

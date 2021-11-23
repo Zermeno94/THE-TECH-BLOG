@@ -1,10 +1,10 @@
-// pulled starter code from mini project and past unit assignments
+// pulled starter code from mini profile and past unit assignments
 
 const newFormHandler = async (event) => {
   event.preventDefault();
 
   const name = document.querySelector('#blog-name').value.trim();
-  //const needed_funding = document.querySelector('#project-funding').value.trim();
+  //const needed_funding = document.querySelector('#profile-funding').value.trim();
   const contents = document.querySelector('#blog-cont').value.trim();
 
   if (name && contents) {

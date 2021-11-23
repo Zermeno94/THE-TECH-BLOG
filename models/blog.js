@@ -1,4 +1,4 @@
-// starter code from mini project
+// starter code from mini profile
 
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');

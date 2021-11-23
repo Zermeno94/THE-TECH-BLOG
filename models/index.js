@@ -1,4 +1,4 @@
-// starter code from mini project
+// starter code from mini profile
 
 const User = require('./User');
 const Blog = require('./Blog');

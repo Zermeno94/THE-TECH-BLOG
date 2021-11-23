@@ -1,4 +1,4 @@
-//Pulled starter code from mini project
+//Pulled starter code from mini profile
 
 const router = require('express').Router();
 const { Blog, User } = require('../models');
@@ -11,7 +11,7 @@ router.get('/', withAuth, async (req, res) => {
       order: [['name', 'ASC']],
     });
 
-    const users = userData.map((project) => project.get({ plain: true }));
+    const users = userData.map((profile) => profile.get({ plain: true }));
 
     res.render('homepage', {
       users,

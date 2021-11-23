@@ -1,4 +1,4 @@
-// Pulled starter code from mini project
+// Pulled starter code from mini profile
 const sequelize = require('../config/connection');
 const { User, Blog } = require('../models');
 

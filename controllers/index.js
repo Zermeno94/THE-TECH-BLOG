@@ -1,4 +1,4 @@
-// pulled starter code from mini project
+// pulled starter code from mini profile
 
 const router = require('express').Router();
 

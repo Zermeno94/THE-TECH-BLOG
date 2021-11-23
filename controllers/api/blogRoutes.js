@@ -1,4 +1,4 @@
-// Pulled starter code from mini project
+// Pulled starter code from mini profile
 
 const router = require('express').Router();
 const { Blog } = require('../../models');
