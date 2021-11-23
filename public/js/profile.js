@@ -1,6 +1,5 @@
 // pulled starter code from mini project and past unit assignments
 
-
 const newFormHandler = async (event) => {
   event.preventDefault();
 
