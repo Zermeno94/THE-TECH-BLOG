@@ -11,7 +11,7 @@ const newFormHandler = async (event) => {
   if (name && contents) {
     const response = await fetch('/api/blogs', {
       method: 'POST',
-      body: JSON.stringify({ name, contents }),
+      body: JSON.stringify({post_title, contents }),
       headers: {
         'Content-Type': 'application/json',
       },
