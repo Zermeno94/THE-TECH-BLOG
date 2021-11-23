@@ -21,10 +21,13 @@
     /* justify-content: flex-start; */
     /* background-color: var(--primary); */
     background-image: url(https://images.squarespace-cdn.com/content/v1/58c43562a5790aa56a886623/1563391322195-X9RAKPKJXBNB74FSUAA7/Archisoup-monochrome-architecture-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0;
     color: white;
     line-height: 1.5;
     font-size: 24px;
+    
   }
   
   a {
