@@ -4,7 +4,7 @@ const router = require('express').Router();
 const { Blog } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-router.post('/', async (req, res) => {
+router.post('/', withAuth, async (req, res) => {
   try {
     const newBlog = await Blog.create({
       ...req.body,
@@ -12,6 +12,7 @@ router.post('/', async (req, res) => {
     });
 
     res.status(200).json(newBlog);
+    
   } catch (err) {
     res.status(400).json(err);
   }
@@ -27,7 +28,7 @@ router.delete('/:id', withAuth, async (req, res) => {
     });
 
     if (!blogData) {
-      res.status(404).json({ message: 'Post cannot be found!' });
+      res.status(404).json({ message: 'No post found with this id!' });
       return;
     }
 
