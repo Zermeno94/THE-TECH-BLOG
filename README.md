@@ -38,7 +38,7 @@ This application allows developers to publish their blog posts and comment on ot
 ### GitHub & Heroku Link
 
 * [GitHub Link](https://github.com/Zermeno94/THE-TECH-BLOG)
-* [Heroku Link](https://dashboard.heroku.com/apps/the-tech-blog-1/deploy/heroku-git)
+* [Heroku Link](https://the-tech-blog-1.herokuapp.com/login)
 
 ## Contributers
 * Miranda Zermeno
