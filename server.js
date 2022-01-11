@@ -46,3 +46,4 @@ sequelize.sync({ force: false }).then(() => {
 //TODO
 // Need to fix the errs in getting data from database//
 // Work on database for usersData//
+// added heroku link
